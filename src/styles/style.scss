@@ -8,6 +8,25 @@
 }
 
 .user {
+  position: relative;
+  background: lightblue;
+  display: inline-block;
   padding: 10px;
-  background-color: #dcdcdc;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.status-list {
+  background: #eee;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.tooltip {
+  position: absolute;
+  top: -10px;
+  width: 80px;
+  background: #666;
+  color: white;
+  text-align: center;
 }
