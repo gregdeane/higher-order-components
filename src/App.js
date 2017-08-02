@@ -5,6 +5,7 @@ import FunctionalPatternsUsingRecompose from './components/02-functional-pattern
 import AddLocalStateToFunctionalComponents from './components/03-add-local-state-to-functional-components';
 import AddLocalStateWithReduxLikeReducersUsingRecompose from './components/04-add-local-state-with-redux-like-reducers-using-recompose';
 import AddLifecycleHooksToFunctionalStatelessComponent from './components/05-add-lifecycle-hooks-to-functional-stateless-component';
+import TransformPropsUsingRecomposeMapPropsHOC from './components/06-transform-props-using-recompose-map-props-hoc';
 
 const App = () => (
   <div className="app">
@@ -13,6 +14,7 @@ const App = () => (
     <AddLocalStateToFunctionalComponents />
     <AddLocalStateWithReduxLikeReducersUsingRecompose />
     <AddLifecycleHooksToFunctionalStatelessComponent />
+    <TransformPropsUsingRecomposeMapPropsHOC />
   </div>
 );
 
