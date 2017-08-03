@@ -7,6 +7,7 @@ import AddLocalStateWithReduxLikeReducersUsingRecompose from './components/04-ad
 import AddLifecycleHooksToFunctionalStatelessComponent from './components/05-add-lifecycle-hooks-to-functional-stateless-component';
 import TransformPropsUsingRecomposeMapPropsHOC from './components/06-transform-props-using-recompose-map-props-hoc';
 import LockPropsByUsingWithProps from './components/07-lock-props-by-using-with-props';
+import FlattenPropUsingRecompose from './components/08-flatten-prop-using-recompose';
 
 const App = () => (
   <div className="app">
@@ -17,6 +18,7 @@ const App = () => (
     <AddLifecycleHooksToFunctionalStatelessComponent />
     <TransformPropsUsingRecomposeMapPropsHOC />
     <LockPropsByUsingWithProps />
+    <FlattenPropUsingRecompose />
   </div>
 );
 
