@@ -29,3 +29,28 @@
   color: white;
   text-align: center;
 }
+
+a {
+  margin-right: 5px;
+  font-family: Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif;
+}
+
+header a {
+  display: inline-block;;
+  background: lightgray;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background: #eee;
+  padding: 5px;
+}
+
+nav a {
+  font-size: 14px;
+  padding: 3px;
+  margin-right: 2px;
+  border-right: 1px solid #ddd;
+}
