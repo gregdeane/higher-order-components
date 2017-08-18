@@ -8,6 +8,7 @@ import AddLifecycleHooksToFunctionalStatelessComponent from './components/05-add
 import TransformPropsUsingRecomposeMapPropsHOC from './components/06-transform-props-using-recompose-map-props-hoc';
 import LockPropsByUsingWithProps from './components/07-lock-props-by-using-with-props';
 import FlattenPropUsingRecompose from './components/08-flatten-prop-using-recompose';
+import ShowSpinnerWhileComponentIsLoading from './components/09-show-spinner-while-component-is-loading';
 
 const App = () => (
   <div className="app">
@@ -19,6 +20,7 @@ const App = () => (
     <TransformPropsUsingRecomposeMapPropsHOC />
     <LockPropsByUsingWithProps />
     <FlattenPropUsingRecompose />
+    <ShowSpinnerWhileComponentIsLoading />
   </div>
 );
 
