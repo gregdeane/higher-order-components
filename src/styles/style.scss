@@ -11,7 +11,7 @@
 .spinner {
   position: relative;
   background: lightblue;
-  display: inline-block;
+  display: block;
   padding: 10px;
   cursor: pointer;
 }
@@ -20,6 +20,11 @@
   background: #eee;
   padding: 5px;
   margin: 5px 0;
+}
+
+.error {
+  font-weight: bold;
+  color: red;
 }
 
 .tooltip {

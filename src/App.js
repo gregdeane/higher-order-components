@@ -9,6 +9,7 @@ import TransformPropsUsingRecomposeMapPropsHOC from './components/06-transform-p
 import LockPropsByUsingWithProps from './components/07-lock-props-by-using-with-props';
 import FlattenPropUsingRecompose from './components/08-flatten-prop-using-recompose';
 import ShowSpinnerWhileComponentIsLoading from './components/09-show-spinner-while-component-is-loading';
+import ShowErrorMessagesForNonOptimalStates from './components/10-show-error-messages-for-non-optimal-states';
 
 const App = () => (
   <div className="app">
@@ -21,6 +22,7 @@ const App = () => (
     <LockPropsByUsingWithProps />
     <FlattenPropUsingRecompose />
     <ShowSpinnerWhileComponentIsLoading />
+    <ShowErrorMessagesForNonOptimalStates />
   </div>
 );
 
