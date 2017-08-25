@@ -11,6 +11,7 @@ import FlattenPropUsingRecompose from './components/08-flatten-prop-using-recomp
 import ShowSpinnerWhileComponentIsLoading from './components/09-show-spinner-while-component-is-loading';
 import ShowErrorMessagesForNonOptimalStates from './components/10-show-error-messages-for-non-optimal-states';
 import RenderComponentsBasedOnPredicates from './components/11-render-components-based-on-predicates';
+import SetHtmlTagOfComponentViaProp from './components/12-set-html-tag-of-component-via-prop';
 
 const App = () => (
   <div className="app">
@@ -25,6 +26,7 @@ const App = () => (
     <ShowSpinnerWhileComponentIsLoading />
     <ShowErrorMessagesForNonOptimalStates />
     <RenderComponentsBasedOnPredicates />
+    <SetHtmlTagOfComponentViaProp />
   </div>
 );
 
