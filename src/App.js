@@ -10,6 +10,7 @@ import LockPropsByUsingWithProps from './components/07-lock-props-by-using-with-
 import FlattenPropUsingRecompose from './components/08-flatten-prop-using-recompose';
 import ShowSpinnerWhileComponentIsLoading from './components/09-show-spinner-while-component-is-loading';
 import ShowErrorMessagesForNonOptimalStates from './components/10-show-error-messages-for-non-optimal-states';
+import RenderComponentsBasedOnPredicates from './components/11-render-components-based-on-predicates';
 
 const App = () => (
   <div className="app">
@@ -23,6 +24,7 @@ const App = () => (
     <FlattenPropUsingRecompose />
     <ShowSpinnerWhileComponentIsLoading />
     <ShowErrorMessagesForNonOptimalStates />
+    <RenderComponentsBasedOnPredicates />
   </div>
 );
 
